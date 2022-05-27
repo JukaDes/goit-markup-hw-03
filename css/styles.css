@@ -8,8 +8,31 @@
     --accent-color: #2196F3;
 }
 
-/* defoult styles none --- DONT FORGET TO FIX LIST.DECORATION: NONE*/ 
+/*  !!!!!!!!!! DRAFT OUTLINE - DONT FORGET TO DELETE !!!!!!!!!! */
 
+* {
+    outline: 1px solid tomato;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 
 .list {
     list-style: none;
@@ -17,7 +40,6 @@
 
 .link {
     text-decoration: none;
-    font-style: normal;
 }
 
 /* STUDIO */
